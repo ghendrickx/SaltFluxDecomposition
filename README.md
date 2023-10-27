@@ -36,3 +36,47 @@ Gijs G. Hendrickx
 (_Delft University of Technology_).
 
 Contact: [G.G.Hendrickx@tudelft.nl](mailto:G.G.Hendrickx@tudelft.nl?subject=[GitHub]%20ANNESI:%20).
+
+## References
+When using this repository, please cite accordingly:
+>   Hendrickx, G.G.
+    (n.d.).
+    SaltFluxDecomposition: NumPy-based salt flux decomposition.
+    
+### Related references
+The salt flux decomposition in this repository is used as part of the following peer-reviewed articles:
+
+*   [Hendrickx, G.G.](https://orcid.org/0000-0001-9523-7657),
+    [Manuel, L.A.](https://orcid.org/0000-0001-5424-1270),
+    [Pearson, S.G.](https://orcid.org/0000-0002-3986-4469),
+    [Aarninkhof, S.G.J.](https://orcid.org/0000-0002-4591-0257), and
+    [Meselhe, E.A.](https://orcid.org/0000-0002-0628-1670)
+    (_in prep._).
+    An earthen sill as a measure to mitigate salt intrusion in estuaries.
+
+
+*   [Hendrickx, G.G.](https://orcid.org/0000-0001-9523-7657), and
+    [Pearson, S.G.](https://orcid.org/0000-0002-3986-4469)
+    (_in prep._).
+    On the effects of intertidal area on estuarine salt intrusion.
+    
+The salt flux decomposition in this repository is used as part of the following conference presentations/proceedings
+(_presenter in **bold**_):
+
+*   [**Hendrickx, G.G.**](https://orcid.org/0000-0001-9523-7657),
+    [Meselhe, E.A.](https://orcid.org/0000-0002-0628-1670),
+    [Herman, P.M.J.](https://orcid.org/0000-0003-2188-6341), and
+    [Aarninkhof, S.G.J.](https://orcid.org/0000-0002-4591-0257)
+    (Apr. 2023).
+    A sill as a nature-based solution to mitigate salt intrusion.
+    _Coastal Sediments 2023_.
+    New Orleans, LA, USA.
+
+*   [**Hendrickx, G.G.**](https://orcid.org/0000-0001-9523-7657),
+    [Meselhe, E.A.](https://orcid.org/0000-0002-0628-1670),
+    [Aarninkhof, S.G.J.](https://orcid.org/0000-0002-4591-0257), and
+    [Herman, P.M.J.](https://orcid.org/0000-0003-2188-6341)
+    (Apr. 2023).
+    Designing a sill to mitigate salt intrusion.
+    _Lower Mississippi River Science Symposium_.
+    New Orleans, LA, USA.
