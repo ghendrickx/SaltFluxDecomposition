@@ -73,9 +73,9 @@ class SFD:
         self.time_axis: int = kwargs.get('time_axis', 0)
         self.depth_axis: int = kwargs.get('depth_axis', -1)
 
-        # initiate flux variables
-        self._flux0 = None
+        # initiate flux attributes
         self._flux1 = None
+        self._flux2 = None
         self._flux3 = None
         self._flux4 = None
 
