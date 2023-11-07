@@ -44,7 +44,7 @@ The salt flux decomposition in this repository is used as part of the following 
     [Manuel, L.A.](https://orcid.org/0000-0001-5424-1270),
     [Pearson, S.G.](https://orcid.org/0000-0002-3986-4469),
     [Aarninkhof, S.G.J.](https://orcid.org/0000-0002-4591-0257), and
-    [Meselhe, E.A.](https://orcid.org/0000-0002-0628-1670)
+    [Meselhe, E.A.](https://orcid.org/0000-0002-5832-8864)
     (_in prep._).
     An earthen sill as a measure to mitigate salt intrusion in estuaries.
 
@@ -58,7 +58,7 @@ The salt flux decomposition in this repository is used as part of the following 
 (_presenter in **bold**_):
 
 *   [**Hendrickx, G.G.**](https://orcid.org/0000-0001-9523-7657),
-    [Meselhe, E.A.](https://orcid.org/0000-0002-0628-1670),
+    [Meselhe, E.A.](https://orcid.org/0000-0002-5832-8864),
     [Herman, P.M.J.](https://orcid.org/0000-0003-2188-6341), and
     [Aarninkhof, S.G.J.](https://orcid.org/0000-0002-4591-0257)
     (Apr. 2023).
@@ -67,7 +67,7 @@ The salt flux decomposition in this repository is used as part of the following 
     New Orleans, LA, USA.
 
 *   [**Hendrickx, G.G.**](https://orcid.org/0000-0001-9523-7657),
-    [Meselhe, E.A.](https://orcid.org/0000-0002-0628-1670),
+    [Meselhe, E.A.](https://orcid.org/0000-0002-5832-8864),
     [Aarninkhof, S.G.J.](https://orcid.org/0000-0002-4591-0257), and
     [Herman, P.M.J.](https://orcid.org/0000-0003-2188-6341)
     (Apr. 2023).
