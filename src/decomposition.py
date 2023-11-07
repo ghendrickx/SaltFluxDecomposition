@@ -11,11 +11,7 @@ salt fluxes in four categories:
 
 Author: Gijs G. Hendrickx
 """
-import logging
-
 import numpy as np
-
-_LOG = logging.getLogger(__name__)
 
 
 class SFD:
