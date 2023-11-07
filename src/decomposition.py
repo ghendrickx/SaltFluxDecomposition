@@ -8,6 +8,8 @@ salt fluxes in four categories:
  2. tide-varying and depth-integrated salt flux;
  3. tide-averaged and depth-varying salt flux;
  4. tide- and depth-varying salt flux.
+
+Author: Gijs G. Hendrickx
 """
 import logging
 
@@ -277,9 +279,9 @@ class SFD:
         :return: salt flux component 1
         :rtype: numpy.ndarray
         """
-        if self._flux0 is None:
-            self._flux0 = self._calc_flux(self.component1, self.avg_time_int_depth)
-        return self._flux0
+        if self._flux1 is None:
+            self._flux1 = self._calc_flux(self.component1, self.avg_time_int_depth)
+        return self._flux1
 
     @property
     def flux2(self) -> np.ndarray:
@@ -288,9 +290,9 @@ class SFD:
         :return: salt flux component 2
         :rtype: numpy.ndarray
         """
-        if self._flux1 is None:
-            self._flux1 = self.avg_time(self._calc_flux(self.component2, self.int_depth))
-        return self._flux1
+        if self._flux2 is None:
+            self._flux2 = self.avg_time(self._calc_flux(self.component2, self.int_depth))
+        return self._flux2
 
     @property
     def flux3(self) -> np.ndarray:
