@@ -36,12 +36,6 @@ Gijs G. Hendrickx
 (_Delft University of Technology_).
 
 Contact: [G.G.Hendrickx@tudelft.nl](mailto:G.G.Hendrickx@tudelft.nl?subject=[GitHub]%20ANNESI:%20).
-
-## References
-When using this repository, please cite accordingly:
->   Hendrickx, G.G.
-    (n.d.).
-    SaltFluxDecomposition: NumPy-based salt flux decomposition.
     
 ### Related references
 The salt flux decomposition in this repository is used as part of the following peer-reviewed articles:
