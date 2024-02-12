@@ -28,14 +28,26 @@ sfd = SFD(flow=u, salinity=s, cross_section=a)
 # calculate salt flux components
 fluxes = sfd.fluxes  # shape=(4, space)
 ```
-**Note** that the three (3) input arrays must have equal size.
+**Note** that the three (3) input arrays must have equal size/shape.
 
 ## Author
 Gijs G. Hendrickx 
-[![alt text](https://camo.githubusercontent.com/e1ec0e2167b22db46b0a5d60525c3e4a4f879590a04c370fef77e6a7e00eb234/68747470733a2f2f696e666f2e6f726369642e6f72672f77702d636f6e74656e742f75706c6f6164732f323031392f31312f6f726369645f31367831362e706e67) 0000-0001-9523-7657](https://orcid.org/0000-0001-9523-7657)
+[<img src=https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif alt="ORCiD" width="16" height="16">](https://orcid.org/0000-0001-9523-7657)
 (_Delft University of Technology_).
 
 Contact: [G.G.Hendrickx@tudelft.nl](mailto:G.G.Hendrickx@tudelft.nl?subject=[GitHub]%20ANNESI:%20).
+
+## License
+This repository is licensed under [Apache License 2.0](LICENSE).
+
+## Reference
+When using this repository, please cite accordingly:
+>   Hendrickx, G.G.
+    (2023).
+    Salt Flux Decomposition: NumPy-based salt flux decomposition.
+    4TU.ResearchData.
+    Software.
+    [doi:10.4121/bccbe767-667b-40ba-a4d1-d8fcad900772](https://doi.org/https://doi.org/10.4121/19307693).
     
 ### Related references
 The salt flux decomposition in this repository is used as part of the following peer-reviewed articles:

@@ -11,11 +11,7 @@ salt fluxes in four categories:
 
 Author: Gijs G. Hendrickx
 """
-import logging
-
 import numpy as np
-
-_LOG = logging.getLogger(__name__)
 
 
 class SFD:
@@ -183,6 +179,7 @@ class SFD:
         # calculate component 1
         if comp1 is None:
             comp1 = self.component1(variable)
+
         # return component 2
         return self._component(self.int_depth, variable) - self.expand_time(comp1)
 
@@ -204,9 +201,11 @@ class SFD:
         # calculate component 1
         if comp1 is None:
             comp1 = self.component1(variable)
+
         # calculate component 2
         if comp2 is None:
             comp2 = self.component2(variable, comp1=comp1)
+
         # return intermediate component
         return variable - self.expand_depth(comp2 + self.expand_time(comp1))
 
@@ -225,6 +224,7 @@ class SFD:
         # calculate intermediate component
         if not var_is_comp_:
             variable = self.component_(variable)
+
         # return component 3
         return self._component(self.avg_time, variable)
 
@@ -245,9 +245,11 @@ class SFD:
         # calculate intermediate component
         if not var_is_comp_:
             variable = self.component_(variable)
+
         # calculate component 3
         if comp3 is None:
             comp3 = self.component3(variable, var_is_comp_=True)
+
         # return component 4
         return variable - self.expand_time(comp3)
 
@@ -279,8 +281,11 @@ class SFD:
         :return: salt flux component 1
         :rtype: numpy.ndarray
         """
+        # calculate flux 1
         if self._flux1 is None:
             self._flux1 = self._calc_flux(self.component1, self.avg_time_int_depth)
+
+        # return flux 1
         return self._flux1
 
     @property
@@ -290,8 +295,11 @@ class SFD:
         :return: salt flux component 2
         :rtype: numpy.ndarray
         """
+        # calculate flux 2
         if self._flux2 is None:
             self._flux2 = self.avg_time(self._calc_flux(self.component2, self.int_depth))
+
+        # return flux 2
         return self._flux2
 
     @property
@@ -301,8 +309,11 @@ class SFD:
         :return: salt flux component 3
         :rtype: numpy.ndarray
         """
+        # calculate flux 3
         if self._flux3 is None:
             self._flux3 = self.int_depth(self._calc_flux(self.component3, self.avg_time))
+
+        # return flux 3
         return self._flux3
 
     @property
@@ -312,8 +323,11 @@ class SFD:
         :return: salt flux component 4
         :rtype: numpy.ndarray
         """
+        # calculate flux 4
         if self._flux4 is None:
             self._flux4 = self.avg_time_int_depth(self._calc_flux(self.component4, lambda x: x))
+
+        # return flux 4
         return self._flux4
 
     @property
